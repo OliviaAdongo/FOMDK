@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Beneficiary Profile - Friends of Muscular Dystrophy Kenya</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Beneficiary Profile Stylesheet -->
+    <link href="css/beneficiary-profile.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        role="status"
+        style="width: 3rem; height: 3rem"
+      ></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div
+      class="container-fluid bg-secondary top-bar wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="row align-items-center h-100">
+        <div class="col-lg-4 text-center text-lg-start">
+          <a href="index.html">
+            <h1 class="display-5 text-primary m-0">FOMDK</h1>
+          </a>
+        </div>
+        <div class="col-lg-8 d-none d-lg-block">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="d-flex justify-content-end">
+                <div class="flex-shrink-0 btn-square bg-primary">
+                  <i class="fa fa-phone-alt text-dark"></i>
+                </div>
+                <div class="ms-2">
+                  <h6 class="text-primary mb-0">Call Us</h6>
+                  <span class="text-white">+254 729824589</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="d-flex justify-content-end">
+                <div class="flex-shrink-0 btn-square bg-primary">
+                  <i class="fa fa-envelope-open text-dark"></i>
+                </div>
+                <div class="ms-2">
+                  <h6 class="text-primary mb-0">Mail Us</h6>
+                  <span class="text-white">contact@friendsofmdkenya.org</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="d-flex justify-content-end">
+                <div class="flex-shrink-0 btn-square bg-primary">
+                  <i class="fa fa-map-marker-alt text-dark"></i>
+                </div>
+                <div class="ms-2">
+                  <h6 class="text-primary mb-0">Address</h6>
+                  <span class="text-white">Nextgen Mall, Mombasa Road</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div
+      class="container-fluid bg-secondary px-0 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="nav-bar">
+        <nav
+          class="navbar navbar-expand-lg bg-primary navbar-dark px-4 py-lg-0"
+        >
+          <h4 class="d-lg-none m-0">Menu</h4>
+          <button
+            type="button"
+            class="navbar-toggler me-0"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav me-auto">
+              <a href="index.html" class="nav-item nav-link">Home</a>
+              <a href="about.html" class="nav-item nav-link">About</a>
+              <a href="beneficiaries.html" class="nav-item nav-link active">Beneficiaries</a>
+              <a href="donation.html" class="nav-item nav-link">Donation</a>
+              <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="d-none d-lg-flex ms-auto">
+              <a class="btn btn-square btn-dark ms-2" href="#!"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-square btn-dark ms-2" href="#!"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square btn-dark ms-2" href="#!"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-header py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container text-center py-4">
+        <h1 class="display-3 animated slideInDown">Beneficiary Profile</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="beneficiaries.html">Beneficiaries</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Profile</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Main Profile Section Start (Hero + Biography) -->
+    <section class="profile-main-section wow fadeIn" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="row align-items-start g-4">
+          <!-- Hero Column (Left) -->
+          <div class="col-lg-5 col-md-6">
+            <div class="hero-content-wrapper">
+              <div class="hero-image-wrapper mb-4">
+                <img 
+                  src="img/team1.jpeg" 
+                  alt="Boris Johnson" 
+                  class="hero-image"
+                />
+                
+              </div>
+              <div class="hero-content">
+                <h1>Boris Johnson</h1>
+                <p class="hero-tagline">Nairobi, Kenya</p>
+                <p class="hero-tagline">"Embracing life's challenges with courage and determination"</p>
+                <div class="hero-stats mb-4">
+                  <div class="stat-item">
+                    <h4>15</h4>
+                    <p>Years Old</p>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- Biography Column (Right) -->
+          <div class="col-lg-7 col-md-6">
+            <div class="biography-content-wrapper">
+              <div class="section-header mb-4">
+                <span class="section-title">About Me</span>
+              </div>
+
+              <div class="biography-content">
+                <div class="bio-paragraph">
+                  <h5>My Journey</h5>
+                  <p>
+                    My name is Boris Johnson, and I'm 15 years old. I was diagnosed with Muscular Dystrophy 
+                    when I was just 10 years old. It was a challenging moment for me and my family, but we've 
+                    learned to face each day with hope and resilience. Friends of Muscular Dystrophy Kenya has 
+                    been instrumental in my journey, providing support and encouragement every step of the way.
+                  </p>
+                </div>
+
+                <div class="bio-paragraph">
+                  <h5>Facing Challenges</h5>
+                  <p>
+                    Living with Muscular Dystrophy means adapting to physical limitations, but it hasn't dampened 
+                    my spirit. School has been both rewarding and demanding. There are days when my muscles feel 
+                    weaker than others, but my determination to succeed academically remains strong. I've learned 
+                    that challenges are just opportunities to grow stronger mentally and emotionally. The support from 
+                    FOMDK has helped me access better healthcare and educational resources.
+                  </p>
+                </div>
+
+                <div class="bio-paragraph">
+                  <h5>Hobbies & Interests</h5>
+                  <p>
+                    When I'm not in school, I love spending time with my family and friends. I'm passionate about 
+                    reading – it takes me to different worlds and lets me escape into amazing stories. I also enjoy 
+                    playing chess, which helps me think strategically about life. Recently, I've discovered a love for 
+                    digital art and graphic design. Creating things on my computer allows me to express my creativity 
+                    without physical limitations.
+                  </p>
+                </div>
+
+                <div class="bio-paragraph">
+                  <h5>My Dreams</h5>
+                  <p>
+                    My biggest dream is to become a software engineer. I want to use technology to create solutions 
+                    that help people, especially those facing health challenges like myself. I believe that with the 
+                    right education and support, nothing is impossible. I'm grateful for the opportunity to continue 
+                    my studies and work towards making my dreams a reality. The future looks bright, and I'm ready 
+                    to embrace it!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Main Profile Section End -->
+
+    <!-- Skills Section Start -->
+    <section class="skills-section">
+      <div class="container">
+        <div class="section-header wow fadeIn" data-wow-delay="0.1s">
+          <span class="section-title">My Talents</span>
+          <h2>What I'm Good At</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <ul class="skills-list wow fadeIn" data-wow-delay="0.2s">
+              <li><strong>Academic Excellence</strong> - Strong in Mathematics and Science subjects</li>
+              <li><strong>Strategic Thinking</strong> - Chess enthusiast with problem-solving skills</li>
+              <li><strong>Digital Design</strong> - Graphic design and creative visual composition</li>
+              <li><strong>Communication</strong> - Strong verbal and written expression skills</li>
+              <li><strong>Programming Basics</strong> - Learning Python and Web Development</li>
+              <li><strong>Empathy</strong> - Ability to understand and support others</li>
+              <li><strong>Teamwork</strong> - Collaborative spirit and group project leadership</li>
+              <li><strong>Creativity</strong> - Innovative thinking and problem-solving</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section End -->
+
+    <!-- Quote Section Start -->
+    <section class="quote-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8 mx-auto">
+            <div class="quote-content text-center wow fadeIn" data-wow-delay="0.1s">
+              <h3>
+                "Life with Muscular Dystrophy taught me that strength isn't just physical – 
+                it's about resilience, determination, and never giving up on your dreams."
+              </h3>
+              <p>— Boris Johnson</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Quote Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section class="portfolio-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+           
+            <h2 class="mb-4">My Work & Projects</h2>
+            <p class="mb-5">
+              Explore my complete portfolio to see how I've applied my skills and expertise 
+              across various projects and initiatives.
+            </p>
+            <a href="#portfolio" class="btn btn-primary wow fadeIn" data-wow-delay="0.2s">
+              View Full Portfolio
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+  
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="row g-5 py-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Our Office</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Nextgen Mall, Mombasa
+              Road
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+254 7298245890
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>contact@friendsofmdkenya.org
+            </p>
+            <div class="d-flex pt-3">
+              <a class="btn btn-square btn-primary me-2" href="#!"
+                ><i class="fab fa-x-twitter"></i
+              ></a>
+              <a class="btn btn-square btn-primary me-2" href="#!"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square btn-primary me-2" href="#!"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-square btn-primary me-2" href="#!"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <h4 class="text-light mb-4">Gallery</h4>
+            <div class="row g-2">
+              <div class="col-4">
+                <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="" />
+              </div>
+              <div class="col-4">
+                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="" />
+              </div>
+              <div class="col-4">
+                <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="" />
+              </div>
+              <div class="col-4">
+                <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="" />
+              </div>
+              <div class="col-4">
+                <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="" />
+              </div>
+              <div class="col-4">
+                <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Quick Links</h4>
+            <a class="btn btn-link" href="about.html">About Us</a>
+            <a class="btn btn-link" href="beneficiaries.html">Beneficiaries</a>
+            <a class="btn btn-link" href="contact.html">Contact Us</a>
+            <a class="btn btn-link" href="donation.html">Donations</a>
+          </div>
+        </div>
+        <div class="copyright pt-5">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;
+              <a class="fw-semi-bold" href="https://working-wave.vercel.app/"
+                >Working Wave</a
+              >, All Right Reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#!" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+      // Initialize WOW animations
+      new WOW().init();
+
+      // Back to top button
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+          $('.back-to-top').fadeIn('slow');
+        } else {
+          $('.back-to-top').fadeOut('slow');
+        }
+      });
+      $('.back-to-top').click(function () {
+        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        return false;
+      });
+    </script>
+  </body>
+</html>
