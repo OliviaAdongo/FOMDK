@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>Friends of Muscular Dystrophy Kenya</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -37,9 +37,10 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    
   </head>
 
-<body>
+  <body>
     <!-- Spinner Start -->
     <div
       id="spinner"
@@ -52,7 +53,7 @@
       ></div>
     </div>
     <!-- Spinner End -->
-     <!-- Topbar Start -->
+    <!-- Topbar Start -->
     <div
       class="container-fluid bg-secondary top-bar wow fadeIn"
       data-wow-delay="0.1s"
@@ -103,7 +104,7 @@
       </div>
     </div>
     <!-- Topbar End -->
-      <!-- Navbar Start -->
+    <!-- Navbar Start -->
     <div
       class="container-fluid bg-secondary px-0 wow fadeIn"
       data-wow-delay="0.1s"
@@ -123,11 +124,13 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav me-auto">
-              <a href="index.html" class="nav-item nav-link">Home</a>
+              <a href="index.html" class="nav-item nav-link active">Home</a>
               <a href="about.html" class="nav-item nav-link">About</a>
-              <a href="beneficiaries.html" class="nav-item nav-link">Beneficiaries</a>
+              <a href="beneficiaries.html" class="nav-item nav-link"
+                >Beneficiaries</a
+              >
               <a href="donation.html" class="nav-item nav-link">Donation</a>
-              <a href="video.html" class="nav-item nav-link  active">Videos</a>
+              <a href="video.html" class="nav-item nav-link active">Videos</a>
               <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
             <div class="d-none d-lg-flex ms-auto">
@@ -146,7 +149,7 @@
       </div>
     </div>
     <!-- Navbar End -->
- <!-- Page Header Start -->
+    <!-- Page Header Start -->
     <div
       class="container-fluid page-header py-5 wow fadeIn"
       data-wow-delay="0.1s"
@@ -156,21 +159,309 @@
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb justify-content-center mb-0">
             <li class="breadcrumb-item"><a href="#!">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Video Gallery</li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Video Gallery
+            </li>
           </ol>
         </nav>
       </div>
     </div>
     <!-- Page Header End -->
 
-
     <!-- Body start -->
-
+    <div class="block">
+      <div class="film-container">
+        <div class="row">
+          <!-- single Film 1 start -->
+          <div class="single-film wow fadeInDown" data-wow-delay=".1s">
+            <div
+              class="box"
+              style="
+                background: url(https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png);
+              "
+            >
+              <div class="box__right box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__left box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__top box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__bottom box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="play-video">
+                <video width="320" height="240" controls id="PlayVideo1">
+                  <source
+                    src="https://www.rmp-streaming.com/media/bbb-360p.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <i
+                class="video-tag-close ion-ios-close-outline"
+                onclick="pauseVid1()"
+              ></i>
+            </div>
+            <div class="film-information">
+              <p>Big Buck Bunny</p>
+              <p>Video Gallery 1</p>
+            </div>
+          </div>
+          <!-- single Film 1 end -->
+          <!-- single Film 2 start -->
+          <div class="single-film wow fadeInDown" data-wow-delay=".2s">
+            <div
+              class="box"
+              style="
+                background: url(https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png);
+              "
+            >
+              <div class="box__right box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__left box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__top box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__bottom box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="play-video">
+                <video width="320" height="240" controls id="PlayVideo2">
+                  <source
+                    src="https://www.rmp-streaming.com/media/bbb-360p.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <i
+                class="video-tag-close ion-ios-close-outline"
+                onclick="pauseVid2()"
+              ></i>
+            </div>
+            <div class="film-information">
+              <p>Big Buck Bunny</p>
+              <p>Video Gallery 2</p>
+            </div>
+          </div>
+          <!-- single Film 2 end -->
+          <!-- single Film 3 start -->
+          <div class="single-film wow fadeInDown" data-wow-delay=".3s">
+            <div
+              class="box"
+              style="
+                background: url(https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png);
+              "
+            >
+              <div class="box__right box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__left box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__top box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__bottom box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="play-video">
+                <video width="320" height="240" controls id="PlayVideo3">
+                  <source
+                    src="https://www.rmp-streaming.com/media/bbb-360p.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+                <i
+                  class="video-tag-close ion-ios-close-outline"
+                  onclick="pauseVid3()"
+                ></i>
+              </div>
+            </div>
+            <div class="film-information">
+              <p>Big Buck Bunny</p>
+              <p>Video Gallery 3</p>
+            </div>
+          </div>
+          <!-- single Film 3 end -->
+          <!-- </div> -->
+          <!-- <div class="row"> -->
+          <!-- single Film 4 start -->
+          <div class="single-film wow fadeInDown" data-wow-delay=".4s">
+            <div
+              class="box"
+              style="
+                background: url(https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png);
+              "
+            >
+              <div class="box__right box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__left box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__top box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__bottom box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="play-video">
+                <video width="320" height="240" controls id="PlayVideo4">
+                  <source
+                    src="https://www.rmp-streaming.com/media/bbb-360p.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+                <i
+                  class="video-tag-close ion-ios-close-outline"
+                  onclick="pauseVid4()"
+                ></i>
+              </div>
+            </div>
+            <div class="film-information">
+              <p>Big Buck Bunny</p>
+              <p>Video Gallery 4</p>
+            </div>
+          </div>
+          <!-- single Film 4 end -->
+          <!-- single Film 5 start -->
+          <div class="single-film wow fadeInDown" data-wow-delay=".5s">
+            <div
+              class="box"
+              style="
+                background: url(https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png);
+              "
+            >
+              <div class="box__right box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__left box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__top box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__bottom box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="play-video">
+                <video width="320" height="240" controls id="PlayVideo5">
+                  <source
+                    src="https://www.rmp-streaming.com/media/bbb-360p.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+                <i
+                  class="video-tag-close ion-ios-close-outline"
+                  onclick="pauseVid5()"
+                ></i>
+              </div>
+            </div>
+            <div class="film-information">
+              <p>Big Buck Bunny</p>
+              <p>Video Gallery 5</p>
+            </div>
+          </div>
+          <!-- single Film 5 end -->
+          <!-- single Film 6 start -->
+          <div class="single-film wow fadeInDown" data-wow-delay=".6s">
+            <div
+              class="box"
+              style="
+                background: url(https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png);
+              "
+            >
+              <div class="box__right box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__left box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__top box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="box__bottom box-pay-icon">
+                <a href="javascript:;">
+                  <i class="play-movie-icon ion-ios-play-outline"></i>
+                </a>
+              </div>
+              <div class="play-video">
+                <video width="320" height="240" controls id="PlayVideo6">
+                  <source
+                    src="https://www.rmp-streaming.com/media/bbb-360p.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+                <i
+                  class="video-tag-close ion-ios-close-outline"
+                  onclick="pauseVid6()"
+                ></i>
+              </div>
+            </div>
+            <div class="film-information">
+              <p>Big Buck Bunny</p>
+              <p>Video Gallery 6</p>
+            </div>
+          </div>
+          <!-- single Film 6 end -->
+        </div>
+      </div>
+    </div>
     <!-- Body end -->
 
-
-
-     <!-- Footer Start -->
+    <!-- Footer Start -->
     <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
       <div class="container">
         <div class="row g-5 py-5">
@@ -201,38 +492,59 @@
               ></a>
             </div>
           </div>
-          
+
           <div class="col-lg-6 col-md-6">
             <h4 class="text-light mb-4">Gallery</h4>
             <div class="row g-2">
               <div class="col-4">
-                <img class="img-fluid w-100" src="img/FOMDK Pictures/IMG_3444.JPG" alt="" />
+                <img
+                  class="img-fluid w-100"
+                  src="img/FOMDK Pictures/IMG_3444.JPG"
+                  alt=""
+                />
               </div>
               <div class="col-4">
-                <img class="img-fluid w-100" src="img/FOMDK Pictures/IMG_3452.JPG" alt="" />
+                <img
+                  class="img-fluid w-100"
+                  src="img/FOMDK Pictures/IMG_3452.JPG"
+                  alt=""
+                />
               </div>
               <div class="col-4">
-                <img class="img-fluid w-100" src="img/FOMDK Pictures/IMG_3470.JPG" alt="" />
+                <img
+                  class="img-fluid w-100"
+                  src="img/FOMDK Pictures/IMG_3470.JPG"
+                  alt=""
+                />
               </div>
               <div class="col-4">
-                
-                <img class="img-fluid w-100" src="img/FOMDK Pictures/IMG_3411.jpg" alt="" />
+                <img
+                  class="img-fluid w-100"
+                  src="img/FOMDK Pictures/IMG_3411.jpg"
+                  alt=""
+                />
               </div>
               <div class="col-4">
-                <img class="img-fluid w-100" src="img/FOMDK Pictures/IMG_3861.JPG" alt="" />
+                <img
+                  class="img-fluid w-100"
+                  src="img/FOMDK Pictures/IMG_3861.JPG"
+                  alt=""
+                />
               </div>
               <div class="col-4">
-                <img class="img-fluid w-100" src="img/FOMDK Pictures/IMG_3420.jpg" alt="" />
+                <img
+                  class="img-fluid w-100"
+                  src="img/FOMDK Pictures/IMG_3420.jpg"
+                  alt=""
+                />
               </div>
-              
             </div>
           </div>
-           <div class="col-lg-2 col-md-6">
+          <div class="col-lg-2 col-md-6">
             <h4 class="text-light mb-4">Quick Links</h4>
             <a class="btn btn-link" href="about.html">About Us</a>
             <a class="btn btn-link" href="contact.html">Contact Us</a>
             <a class="btn btn-link" href="donation.html">Donations</a>
-            
           </div>
         </div>
         <div class="copyright pt-5">
@@ -243,7 +555,6 @@
                 >Working Wave</a
               >, All Right Reserved.
             </div>
-            
           </div>
         </div>
       </div>
@@ -266,6 +577,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    
-</body>
+  </body>
 </html>
