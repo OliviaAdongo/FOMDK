@@ -1,0 +1,160 @@
+*{
+			box-sizing: border-box;
+			font-size: 14px;
+    		font-family: 'Arial';
+ background-color: rgb(34, 34, 34);
+  color:#fff;
+		}
+		
+		.container{
+			width: 1200px;
+			margin:0 auto;
+		}
+
+		
+
+		.gallery{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+
+		}
+
+
+.list-img{
+	overflow-y: auto;
+	width: 100%;
+	height: 500px;
+	padding-top: 20px;
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 31%;
+    flex: 0 0 31%;
+    max-width: 31%;
+    padding-left: 10px;
+}
+.list-img img{
+width: 120px;
+height: 62px;
+padding-right: 10px;
+cursor: pointer;
+
+}
+.main-img{
+	display: flex;
+position: relative;
+padding-right: 10px;
+	    width: 100%;
+
+}
+.main-img img{
+	width: 100%;
+	height: 545px;
+
+	}
+.main-img iframe{
+	width: 100%;
+	height: 500px;
+
+}
+.col-main{
+		position: relative;
+		width: 100%;
+	}
+	.main-img .item-img{
+		width: 100%;
+		    min-width: 100%;
+	}
+
+
+	img.item-list{
+		opacity:1;
+	}
+.item-list.active{
+opacity: 1;
+}
+.nutslide{
+	    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+
+span.next{
+	    right: 15px;
+    position: absolute;
+      font-size: 28px;
+      color: #fff;
+          width: 35px;
+    height: 36px;
+    background: #373737;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-radius: 4px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+span.prev {
+    left: 15px;
+    position: absolute;
+    font-size: 28px;
+    color: #fff;
+        width: 35px;
+    height: 36px;
+    background: #373737;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-radius: 4px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+.main{
+	position: relative;
+	width: 100%;
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 69%;
+    flex: 0 0 69%;
+    max-width: 69%;
+}
+.img-thumbnail{
+position: relative;
+width: 100%;
+
+}
+
+.video-content{
+position: relative;
+display: flex;
+padding-bottom: 20px;
+cursor: pointer;
+}
+.video-content img{
+position: absolute;
+}
+.video-content iframe{
+padding-right: 10px;
+width: 120px;
+height: 62px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#d20000; 
+  border-radius: 10px;
+}
